@@ -71,3 +71,44 @@
     border: 1px solid rgb(145, 144, 144);
     border-radius: 200px;
 }
+
+.nav-options {
+    /* justify-content: space-between; */
+    /* overflow: scroll;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overscroll-behavior-inline: contain; */
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+}
+
+.nav-options::-webkit-scrollbar {
+    display: none;
+}
+
+.cat-icon {
+    width: 24px;
+    height: auto;
+    opacity: 0.5;
+    
+}
+
+.option {
+    margin-top: 0.5rem;
+    min-width: 25%;
+    /* margin-bottom: 0.75rem; */
+    display: grid;
+    gap: 0.25rem;
+    justify-items: center;
+    /* padding: 0.25rem; */
+    padding-bottom: 0.5rem;
+    align-items: center;
+    border-bottom: 2px transparent solid;
+}
+
+.option p {
+    font-size: 0.7rem;
+    color: var(--grey-font-color);
+    font-weight: 600;
+}

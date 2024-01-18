@@ -257,3 +257,11 @@
  .footer-sticky-option img {
      width: 27px;
  }
+
+.footer-sticky-opotion:hover g,
+.footer-sticky-option:hover path,
+.footer-sticky-option:hover circle,
+.footer-sticky-option:hover p {
+    stroke: var(--red-scroll);
+    color: var(--red-scroll);
+}

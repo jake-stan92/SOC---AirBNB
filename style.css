@@ -138,3 +138,10 @@
     height: 100%;
     border-radius: 10px;
 }
+
+#heart-icon {
+    width: 27px;
+    position: absolute;
+    right: 13px;
+    top: 13px;
+}

@@ -73,11 +73,6 @@
 }
 
 .nav-options {
-    /* justify-content: space-between; */
-    /* overflow: scroll;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    overscroll-behavior-inline: contain; */
     overflow: auto;
     white-space: nowrap;
     display: flex;
@@ -97,14 +92,21 @@
 .option {
     margin-top: 0.5rem;
     min-width: 25%;
-    /* margin-bottom: 0.75rem; */
     display: grid;
     gap: 0.25rem;
     justify-items: center;
-    /* padding: 0.25rem; */
     padding-bottom: 0.5rem;
     align-items: center;
     border-bottom: 2px transparent solid;
+}
+
+.option:hover {
+    border-bottom: 2px solid black;
+}
+
+.option:hover img {
+    opacity: 1;
+    scale: 1.1;
 }
 
 .option p {
@@ -129,7 +131,6 @@
     height: 300px;
     width: 100%;
     border-radius: 10px;
-    /* background-color: red; */
     position: relative;
 }
 
@@ -150,7 +151,6 @@
     position: absolute;
     left: 40%;
     bottom: 8px;
-    /* border: 2px solid red; */
 }
 
 .dots {

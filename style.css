@@ -236,3 +236,24 @@
     padding: .6rem;
     background-color: white;
 }
+
+.footer-sticky-options {
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem; 
+ }
+ 
+ .footer-sticky-option {
+     display: grid;
+     justify-items: center;
+     gap: 0.4rem;
+ }
+ 
+ .footer-sticky-option p {
+     color: var(--grey-font-color);
+     font-size: 0.7rem;
+ }
+  
+ .footer-sticky-option img {
+     width: 27px;
+ }

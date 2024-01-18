@@ -145,3 +145,42 @@
     right: 13px;
     top: 13px;
 }
+
+.elipses {
+    position: absolute;
+    left: 40%;
+    bottom: 8px;
+    /* border: 2px solid red; */
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+}
+
+.dot,
+.smaller-dot,
+.smallest-dot {
+    height: 7px;
+    width: 7px;
+    background-color: rgb(172, 171, 171);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 1px;
+}
+
+.first-dot {
+    background-color:rgb(244, 244, 244);
+}
+
+.smaller-dot {
+    width: 5px;
+    height: 5px;
+}
+
+.smallest-dot {
+    width: 4px;
+    height: 4px;
+}

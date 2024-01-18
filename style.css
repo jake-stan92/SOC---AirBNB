@@ -184,3 +184,45 @@
     width: 4px;
     height: 4px;
 }
+
+.article-info {
+    display: grid;
+    gap: .2rem;
+}
+
+.info {
+    display: grid;
+    gap: .1rem;
+}
+
+.info p {
+    font-size: 0.95rem;
+}
+
+.location {
+    justify-content: space-between;
+}
+
+.review {
+    gap: 0.1rem;
+    align-items: center;
+}
+
+.review p {
+    margin-top: .1rem;
+}
+
+#star-icon {
+    width: 16px;
+}
+
+.price {
+    gap: 0.25rem;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.selected-row {
+    grid-row: 3;
+    margin-top: 0.3rem;
+}

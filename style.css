@@ -260,6 +260,87 @@
     font-size: 1.4rem;
 }
 
+.footer-sub {
+    background-color: rgb(247, 247, 247);
+    padding: 1.5rem 1.5rem 0rem 1.5rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.footer-sub p {
+    font-size: 14px;
+}
+
+.footer-options {
+    /* justify-content: space-between; */
+    border-bottom: 1px solid rgb(222, 218, 218);
+    overflow: auto;
+    white-space: nowrap;
+    gap: 1.5rem;
+    /* display: flex; */
+}
+
+.footer-options::-webkit-scrollbar {
+    display: none;
+}
+
+.footer-sub-options {
+    border-bottom: 1px solid rgb(222, 218, 218);
+    padding-bottom: 1.5rem;
+    display: grid;
+    gap: .7rem;
+}
+
+.footer-options p {
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid transparent;
+}
+
+.footer-options p:hover {
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1.35rem;
+    padding-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.option-title {
+    color: black;
+    font-weight: 500;
+}
+
+#show-more-icon {
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.sub-header {
+    font-weight: 500;
+    color: black;
+}
+
+.page-settings {
+    color: black;
+    font-weight: bold;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.language, 
+.currency {
+    gap: 0.5rem;
+    align-items: center;
+}
+
+#currency-value {
+    font-size: 1rem;
+}
+
 /* FOOTER STICKY*/
 .footer-sticky {
     position: sticky;

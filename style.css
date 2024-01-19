@@ -227,6 +227,39 @@
     margin-top: 0.3rem;
 }
 
+/* END OF ARTICLES */
+.end-of-article {
+    margin: 2rem;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    gap: .75rem;
+}
+
+#show-more-button {
+    border: 0;
+    color: rgb(251, 251, 251);
+    background-color: black;
+    padding: 1rem 2rem;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* FOOTER NON STICKY */
+.footer {
+    background-color: rgb(247, 247, 247);
+    padding: 2rem 1.5rem;
+    display: grid;
+    gap: 1rem;
+    border-bottom: 1px solid rgb(222, 218, 218);
+}
+
+.footer h2 {
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
 /* FOOTER STICKY*/
 .footer-sticky {
     position: sticky;
